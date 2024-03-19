@@ -4,20 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.svg">
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <title>Advice generator app</title>
 </head>
 
 <body>
-  <main>
-    <h1>ADVICE #117</h1>
-    <p>"It is easy to sit up and take <br> notice, what's difficult is getting <br> up and taking action."</p>
-    <img class="image1" src="./images/pattern-divider-desktop.svg" alt="">
-    <div class="circle">
-      <img class="image2" src="./images/icon-dice.svg" alt="">
+  <section class="container">
+    <div class="advice">
+      <p class="advice-id">Advice #<span id="advice-id"></span></p>
+      <p class="advice-text" id="advice-text"></p>
     </div>
-  </main>
+    <div class="divider">
+      <img src="images/pattern-divider-mobile.svg" alt="divider" class="dividerMobile">
+      <img src="images/pattern-divider-desktop.svg" alt="divider" class="dividerDesktop">
+    </div>
+    <div class="circle">
+      <img src="images/icon-dice.svg" alt="dice" class="dice">
+    </div>
+  </section>
+  <script src="script.js"></script>
 </body>
 
 </html>
