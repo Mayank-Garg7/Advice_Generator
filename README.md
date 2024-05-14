@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Advice Generator 🎲
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple web application built with React. It fetches random pieces of advice from an external API and displays them to the user. Users can refresh the advice by clicking on a dice icon.
 
-## Available Scripts
+[![GitHub license](https://img.shields.io/github/license/Mayank-Garg7/Advice_Generator)](https://github.com/Mayank-Garg7/Advice_Generator/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/Mayank-Garg7/Advice_Generator)](https://github.com/Mayank-Garg7/Advice_Generator/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Mayank-Garg7/Advice_Generator)](https://github.com/Mayank-Garg7/Advice_Generator/stargazers)
 
-In the project directory, you can run:
+## Live Demo 🌐
 
-### `npm start`
+Check out the live demo [here](#).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features 🚀
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Fetches random advice from an external API
+- Refresh advice with a click of a button
+- Responsive design for mobile and desktop
 
-### `npm test`
+## Technologies Used 🛠️
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- SCSS
+- External API
 
-### `npm run build`
+## How to Run 🏃‍♂️
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone <repository_url>
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Navigate to the project directory:**
 
-### `npm run eject`
+```bash
+cd advice-generator
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Install dependencies:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Start the development server:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+5. **Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Structure 📁
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+├── public
+│   ├── index.html
+│   └── ...
+├── src
+│   ├── components
+│   │   ├── App.js
+│   │   └── ...
+│   ├── styles
+│   │   ├── App.scss
+│   │   └── ...
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-### Code Splitting
+## Screenshots 📸
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Desktop View
+![desktop-preview](https://github.com/Mayank-Garg7/advice_generator/assets/113042462/258321d4-1b86-4070-8ca3-aed8e0022784)
 
-### Analyzing the Bundle Size
+### Mobile View
+![mobile-design](https://github.com/Mayank-Garg7/advice_generator/assets/113042462/89c1ba2e-9d53-4efe-b319-035447bf5cfb)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Commands 💻
 
-### Making a Progressive Web App
+- **Clone Repository:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+git clone <repository_url>
+```
 
-### Advanced Configuration
+- **Install Dependencies:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm install
+```
 
-### Deployment
+- **Run Development Server:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm start
+```
 
-### `npm run build` fails to minify
+## Credits 🙌
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Icons from [FontAwesome](https://fontawesome.com/)
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
